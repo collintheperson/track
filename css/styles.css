@@ -1,15 +1,9 @@
-.q2  {
+.rq2  {
   display: none;
 }
 
-.q3  {
+.language {
   display: none;
-}
-
-.q4 {
-  display: none;
-}
-
-.q5 {
-  display: none;
+  text-align: center;
+  font-size: 22px;
 }

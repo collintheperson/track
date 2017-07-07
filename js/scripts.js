@@ -1,9 +1,15 @@
 $(document).ready(function() {
    $('input[type="radio"]').click(function() {
-       if($(this).attr("id") == 'radio') {
-            $('.q2').hide();
+       if($(this).attr('id') == 'optionsRadios17') {
+            $('#show-me').show();
        }
+
        else {
-            $('.q1').show();
+            $('.rq2').show();
        }
    });
+  $(".btn").click(function()  {
+    $(".text").hide();
+    $(".language").show()
+  });
+});
