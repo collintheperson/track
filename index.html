@@ -10,8 +10,14 @@
   <body>
     <div class="text">
       <div class="container">
-        <h1>What's the difference bewteen Ph.D and C+</h1>
-        <p class="lead"> If you didn't catch that both of those are not coding languages, we started in the same place. Coding is simply entering lines of text to tell the computer to do something. Unfortunely, coding is not that simple. There are many tools on the web to best help programers use tools to best commuicate with the computer. With this simple quiz you'll have a better idea of what language you should consider trying out.</p>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h1>What's the difference bewteen Ph.D and C+</h1>
+          </div>
+          <div class="panel-body">
+            <p class="lead"> If you didn't catch that both of those are not coding languages, we started in the same place. Coding is simply entering lines of text to tell the computer to do something. Unfortunely, coding is not that simple. There are many tools on the web to best help programers use tools to best commuicate with the computer. With this simple quiz you'll have a better idea of what language you should consider trying out.</p>
+          </div>
+        </div>
 
         <div class="rq1">
           <h2>Select the statement that best represents you</h2>
@@ -46,30 +52,36 @@
       <div class="rq2">
         <div class="container">
           <div class="q2">
-            <h2>Select the statement that best represents you</h2>
-            <div class="radio">
-              <label>
-              <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2">
-              I'm really interested in working in the backend side of programing.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2">
-                I want to work for a big buisness, build games, or build internal software.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2">
-                I want a broad scope that allows me to do a mutitude of jobs as well as allowing me to build mobile apps.
-              </label>
-            </div>
-            <div class="radio">
-              <label>
-                <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2">
-                I want to build an interactive website or work at a startup.
-              </label>
+            <div class="panel panel-success">
+              <div class="panel-heading"
+                <h2>Select the statement that best represents you</h2>
+              </div>
+              <div class="panel-body">
+                <div class="radio">
+                  <label>
+                  <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2">
+                  I'm really interested in working in the backend side of programing.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2">
+                    I want to work for a big buisness, build games, or build internal software.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2">
+                    I want a broad scope that allows me to do a mutitude of jobs as well as allowing me to build mobile apps.
+                  </label>
+                </div>
+                <div class="radio">
+                  <label>
+                    <input type="radio" name="optionsRadios2" id="optionsRadios1" value="option2">
+                    I want to build an interactive website or work at a startup.
+                  </label>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -158,13 +170,13 @@
                 Basecamp, Github, Hulu, Soundcloud.
               </label>
             </div>
-            <button type="submit" class="btn" name="buttonSubmit">What language should I learn!</button>
+            <button type="submit" class="btn" id="buttonSubmit">What language should I learn!</button>
           </div>
         </div>
       </div>
     </div>
     <div class="container">
-      <div class="language">
+      <div id="language">
         <p id="ruby"> You should learn Ruby</p>
         <p id="php">You should learn Php</p>
         <p id="java">You should learn Java</p>

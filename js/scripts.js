@@ -1,7 +1,7 @@
 $(document).ready(function() {
    $('input[type="radio"]').click(function() {
        if($(this).attr('id') == 'optionsRadios17') {
-            $('#show-me').show();
+            $('#radio').show();
        }
 
        else {
@@ -10,6 +10,6 @@ $(document).ready(function() {
    });
   $(".btn").click(function()  {
     $(".text").hide();
-    $(".language").show()
+    $("#language").show();
   });
 });
