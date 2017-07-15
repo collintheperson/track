@@ -1,2 +1,10 @@
-$(document).ready(function() {
-   $('input[type="radio"]').click(function() {
+$(function() {
+   $("#formButton").submit(function(event) {
+     alert("hello");
+    // if($('#php1').click) {
+    //   alert("hi");
+      // $("#php").show();
+      event.preventDefault();
+
+  });
+});

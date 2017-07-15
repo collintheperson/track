@@ -20,3 +20,18 @@ button  {
 p {
   font-family:fantasy;
 }
+.bootcamps {
+  display: none;
+}
+
+.school {
+  display: none
+}
+
+.online {
+  display: none
+}
+
+.money  {
+  display: none;
+}
