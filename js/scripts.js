@@ -1,5 +1,5 @@
 $(function() {
-   $("#formButton").submit(function(event) {
+   $("#formClass").submit(function(event) {
      alert("hello");
     // if($('#php1').click) {
     //   alert("hi");
