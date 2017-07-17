@@ -2,6 +2,7 @@ $(function() {
    $("#formID").submit(function(event) {
      var answer = $("input:radio[name=radio1]:checked").val();
      var answer2 =$("input:radio[name=radio2]:checked").val();
+     var answer3 =$("input:radio[name-radio3]:checked").val();
      var answer5 =$("input:radio[name=radio5]:checked").val();
 
      if (answer === "php1"){
@@ -23,7 +24,10 @@ $(function() {
     } else if (answer5 === "bootcamp1") {
         $(".bootcamps").show();
     }
-
+    // if (answer3 === "hidden") {
+    //   $("row").hide();
+    // }
+      $(".toHide").hide()
 
       event.preventDefault();
 
