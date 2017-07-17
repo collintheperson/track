@@ -1,8 +1,22 @@
-/*.rq2  {
+#php  {
   display: none;
-}*/
+  text-align: center;
+  font-size: 22px;
+}
 
-#language {
+#java {
+  display: none;
+  text-align: center;
+  font-size: 22px;
+}
+
+#csharp  {
+  display: none;
+  text-align: center;
+  font-size: 22px;
+}
+
+#ruby {
   display: none;
   text-align: center;
   font-size: 22px;
