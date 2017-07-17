@@ -1,25 +1,25 @@
 #php  {
   display: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
 }
 
 #java {
   display: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
 }
 
 #csharp  {
   display: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
 }
 
 #ruby {
   display: none;
   text-align: center;
-  font-size: 22px;
+  font-size: 40px;
 }
 
 body  {
@@ -36,16 +36,20 @@ p {
 }
 .bootcamps {
   display: none;
+  font-size: 25px;
 }
 
 .school {
-  display: none
+  display: none;
+  font-size: 25px;
 }
 
 .online {
-  display: none
+  display: none;
+  font-size: 25px;
 }
 
 .money  {
   display: none;
+  font-size: 25px;
 }

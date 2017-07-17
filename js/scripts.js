@@ -16,7 +16,7 @@ $(function() {
     }
       if (answer2 === "money")  {
         $(".money").show();
-      }
+    }
     if (answer5 === "school1") {
         $(".school").show();
     }  else if (answer5 === "online1")  {
@@ -24,9 +24,7 @@ $(function() {
     } else if (answer5 === "bootcamp1") {
         $(".bootcamps").show();
     }
-    // if (answer3 === "hidden") {
-    //   $("row").hide();
-    // }
+
       $(".toHide").hide()
 
       event.preventDefault();
