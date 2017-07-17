@@ -25,7 +25,7 @@ $(function() {
       $(".bootcamps").show();
     }
 
-    $(".toHide").hide()
+    $(".tohide").hide()
 
     event.preventDefault();
 
